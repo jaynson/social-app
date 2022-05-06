@@ -19,7 +19,12 @@
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
             "assets": ["src/favicon.ico", "src/assets"],
-            "styles": ["src/styles.css"],
+            "styles": [
+              "src/styles.css",
+              "./node_modules/font-awesome/css/font-awesome.css",
+              "./node_modules/bootswatch/dist/sandstone/bootstrap.css",
+              "./node_modules/ngx-toastr/toastr.css"
+            ],
             "scripts": []
           },
           "configurations": {

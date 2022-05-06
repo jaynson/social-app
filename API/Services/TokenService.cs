@@ -12,6 +12,9 @@ using Microsoft.IdentityModel.Tokens;
 
 namespace API.Services
 {
+    /**
+        Service class to inject JWT token into the Authorization service
+    **/
     public class TokenService : ITokenService
     {
         private readonly SymmetricSecurityKey _key;

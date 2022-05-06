@@ -5,6 +5,9 @@ using System.Threading.Tasks;
 
 namespace API.Entities
 {
+    /**
+        The entity that represents a single entry in the database
+    **/
     public class AppUser
     {
         public int Id { get; set; }

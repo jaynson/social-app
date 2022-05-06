@@ -13,6 +13,9 @@ using Microsoft.EntityFrameworkCore;
 
 namespace API.Controllers
 {
+    /**
+        Controller that represents the endpoint registering and logging in.
+    **/
     public class AccountController : BaseApiControlller
     {
         private readonly DataContext _context;

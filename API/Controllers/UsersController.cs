@@ -10,6 +10,9 @@ using Microsoft.EntityFrameworkCore;
 
 namespace API.Controllers
 {
+     /**
+        Controller for API request to get users list and single user
+    **/
     public class UsersController : BaseApiControlller
     {
         private readonly DataContext _context;

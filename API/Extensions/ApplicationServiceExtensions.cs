@@ -13,6 +13,7 @@ namespace API.Extensions
 {
     public static class ApplicationServiceExtensions
     {
+        // Extension method to configure services for the application
         public static IServiceCollection AddApplicationServices(this IServiceCollection services, IConfiguration config)
         {
             services.AddScoped<ITokenService, TokenService>();
