@@ -28,7 +28,10 @@ namespace API.Controllers
         {
             var thing = _context.Users.Find(-1);
 
-            if(thing == null) return NotFound();
+            if(thing == null) {
+                var res = NotFound();
+                return res;
+            }
 
             return Ok(thing);
         }
