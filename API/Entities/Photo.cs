@@ -13,6 +13,7 @@ namespace API.Entities
 
         public string PublicId { get; set; }
 
+        // Property used to create a relation to the AppUser owner
         public AppUser AppUser { get; set; }
 
         public int AppUserId { get; set; }
